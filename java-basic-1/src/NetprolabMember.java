@@ -10,11 +10,11 @@ public class NetprolabMember {
     double totalRatio = 1;
     for (int i = 0; i < years; i++) {
       //学生の総数
-      members[i][0] = 120 + (random.nextInt(20) - 10);
+      members[i][0] = 110 + (random.nextInt(20) - 10);
       //女性の割合(%)
-      members[i][1] =
+      members[i][1] = 20+i;
       //岩井研の人数
-      members[i][2] = 10 +
+      members[i][2] = 10  +(random.nextInt(6) - 3);
 
       // 男性数を求める
       int men = members[i][0] - (int) (members[i][0] * ((float) members[i][1] / 100));
@@ -30,6 +30,11 @@ public class NetprolabMember {
 
   // Combination　未実装
   public static final long combination(final int n, int r) {
-    return 0;
+  long result = 1;
+  for (int i = 1; i <= r; i++) {
+      result *= n - r + i;
+      result /= i;
+  }
+  return result;
   }
 }
