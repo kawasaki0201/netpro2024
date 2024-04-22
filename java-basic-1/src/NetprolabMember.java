@@ -28,7 +28,6 @@ public class NetprolabMember {
     System.out.println(totalRatio);
   }
 
-  // Combination　未実装
   public static final long combination(final int n, int r) {
   long x = 1;
   for (int i = 1; i <= r; i++) {
