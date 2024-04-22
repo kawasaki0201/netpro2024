@@ -30,11 +30,11 @@ public class NetprolabMember {
 
   // Combination　未実装
   public static final long combination(final int n, int r) {
-  long result = 1;
+  long x = 1;
   for (int i = 1; i <= r; i++) {
-      result *= n - r + i;
-      result /= i;
+      x *= n - r + i;
+      x /= i;
   }
-  return result;
+  return x;
   }
 }
