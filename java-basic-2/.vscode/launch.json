@@ -6,71 +6,23 @@
     "configurations": [
         {
             "type": "java",
-            "name": "IfTest0",
-            "request": "launch",
-            "mainClass": "IfTest0",
-            "projectName": "java-basic-1_2ce5e861"
-        },
-        {
-            "type": "java",
-            "name": "HowOldAreYou",
-            "request": "launch",
-            "mainClass": "HowOldAreYou",
-            "projectName": "java-basic-1_2ce5e861"
-        },
-        {
-            "type": "java",
-            "name": "Hello5",
-            "request": "launch",
-            "mainClass": "Hello5",
-            "projectName": "java-basic-1_2ce5e861"
-        },
-        {
-            "type": "java",
-            "name": "Hello4",
-            "request": "launch",
-            "mainClass": "Hello4",
-            "projectName": "java-basic-1_2ce5e861"
-        },
-        {
-            "type": "java",
-            "name": "Hello3",
-            "request": "launch",
-            "mainClass": "Hello3",
-            "projectName": "java-basic-1_2ce5e861"
-        },
-        {
-            "type": "java",
-            "name": "Hello2",
-            "request": "launch",
-            "mainClass": "Hello2",
-            "projectName": "java-basic-1_2ce5e861"
-        },
-        {
-            "type": "java",
-            "name": "Hello",
-            "request": "launch",
-            "mainClass": "Hello",
-            "projectName": "java-basic-1_2ce5e861"
-        },
-        {
-            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
         },
         {
             "type": "java",
-            "name": "HelloArgs",
+            "name": "App",
             "request": "launch",
-            "mainClass": "HelloArgs",
-            "projectName": "java-basic-2_2ce5e861",
-            "args": [
-                "A0",
-                "A1",
-                "A2",
-                "A3"
-            ]
+            "mainClass": "App",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
+            "name": "XmasTreeKadai",
+            "request": "launch",
+            "mainClass": "XmasTreeKadai",
+            "projectName": "java-basic-2_2ce5e862"
         }
     ]
 }
