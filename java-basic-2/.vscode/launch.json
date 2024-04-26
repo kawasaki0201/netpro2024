@@ -16,7 +16,7 @@
             "name": "HelloArgs",
             "request": "launch",
             "mainClass": "HelloArgs",
-            "projectName": "netpro2024_人によって違う",
+            "projectName": "netpro2024",
             "args": [
                 "A0",
                 "A1",
