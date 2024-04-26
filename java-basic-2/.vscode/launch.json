@@ -64,7 +64,7 @@
             "name": "HelloArgs",
             "request": "launch",
             "mainClass": "HelloArgs",
-            "projectName": "java-basic-1_2ce5e861",
+            "projectName": "java-basic-2_2ce5e861",
             "args": [
                 "A0",
                 "A1",

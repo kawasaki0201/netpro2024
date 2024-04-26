@@ -1,3 +1,3 @@
 public class XmasTreeKadai {
-System.out.println("*");
+System.out.println("＊");
 }
