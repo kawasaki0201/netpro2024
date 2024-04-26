@@ -21,8 +21,8 @@ public class XmasTree {
             System.out.println("----次の数字の入力をお願いします ");
         }
         */
-        System.out.println("----step6.3-----");
-        int N=10;
+        int N=19;
+        int M=7;
         for (int j = 0; j < N; j++) {
 
             for (int i = 0; i <= N-j; i++) {
@@ -45,13 +45,12 @@ public class XmasTree {
 
             System.out.print("\n");
         }
-        for (int j=0; j<4; j++) {
+        for (int j=0; j<M; j++) {
         for (int i=0; i<N; i++) {
             System.out.print(" ");
         }
-        System.out.println("|||");
+        System.out.println("***");
     }
-        System.out.println("---------");
     }
 }
 
