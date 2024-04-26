@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
             "name": "HelloArgs",
             "request": "launch",
             "mainClass": "HelloArgs",
