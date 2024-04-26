@@ -27,7 +27,7 @@ public class XmasTree {
 
             for (int i = 0; i <= N-j; i++) {
                 if((i+j)%2==0)
-                System.out.print("@");
+                System.out.print("+");
                 else
                 System.out.print(" ");
             }
@@ -37,14 +37,20 @@ public class XmasTree {
             }
 
             for (int i = 0; i <= N-j; i++) {
-                if((i+j)%2==0)
-                System.out.print("@");
+                if(i%2==0)
+                System.out.print("+");
                 else
                 System.out.print(" ");
             }
 
             System.out.print("\n");
         }
+        for (int j=0; j<4; j++) {
+        for (int i=0; i<N; i++) {
+            System.out.print(" ");
+        }
+        System.out.println("|||");
+    }
         System.out.println("---------");
     }
 }
