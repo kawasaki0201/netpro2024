@@ -6,6 +6,66 @@
     "configurations": [
         {
             "type": "java",
+            "name": "XmasTree",
+            "request": "launch",
+            "mainClass": "XmasTree",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
+            "name": "Calc2Scanner",
+            "request": "launch",
+            "mainClass": "Calc2Scanner",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
+            "name": "HeikinB",
+            "request": "launch",
+            "mainClass": "HeikinB",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
+            "name": "HeikinA",
+            "request": "launch",
+            "mainClass": "HeikinA",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
+            "name": "LoopAdvance",
+            "request": "launch",
+            "mainClass": "LoopAdvance",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
+            "name": "Calc2",
+            "request": "launch",
+            "mainClass": "Calc2",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
+            "name": "Calc1",
+            "request": "launch",
+            "mainClass": "Calc1",
+            "projectName": "java-basic-2_2ce5e862",
+            "args": [
+                "10",
+                "17"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "HeikinCKadai",
+            "request": "launch",
+            "mainClass": "HeikinCKadai",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
