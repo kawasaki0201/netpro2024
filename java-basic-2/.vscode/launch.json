@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimeCheck",
+            "request": "launch",
+            "mainClass": "PrimeCheck",
+            "projectName": "java-basic-2_2ce5e862"
+        },
+        {
+            "type": "java",
             "name": "XmasTree",
             "request": "launch",
             "mainClass": "XmasTree",
