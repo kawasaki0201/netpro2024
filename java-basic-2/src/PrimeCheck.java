@@ -15,7 +15,6 @@ public class PrimeCheck {
         printConsecutiveLastDigitPairRanking(consecutiveLastDigitPairs);
     }
 
-    // 素数を見つける関数
     public static List<Integer> findPrimes(int number) {
         List<Integer> primes = new ArrayList<>();
         boolean[] isPrime = new boolean[number + 1];
@@ -32,7 +31,6 @@ public class PrimeCheck {
         return primes;
     }
 
-    // 素数を下一桁を項目としてグループ化する関数
     public static Map<Integer, List<Integer>> groupPrimesByLastDigit(List<Integer> primes) {
         Map<Integer, List<Integer>> primeGroups = new HashMap<>();
         for (int prime : primes) {
@@ -42,15 +40,13 @@ public class PrimeCheck {
         return primeGroups;
     }
 
-    // 素数グループを出力する関数
     public static void printPrimeGroups(Map<Integer, List<Integer>> primeGroups) {
-        System.out.println("素数グループ:");
+        System.out.println("素数一覧:");
         for (Map.Entry<Integer, List<Integer>> entry : primeGroups.entrySet()) {
-            System.out.println("下一桁: " + entry.getKey() + ", 素数リスト: " + entry.getValue());
+            System.out.println("下一桁が" + entry.getKey() + "の素数:" + entry.getValue());
         }
     }
 
-    // 連続する素数の下一桁の出現回数を数える関数
     public static Map<String, Integer> countConsecutiveLastDigitPairs(List<Integer> primes) {
         Map<String, Integer> consecutiveLastDigitPairs = new HashMap<>();
         int previousPrime = -1;
@@ -64,14 +60,13 @@ public class PrimeCheck {
         return consecutiveLastDigitPairs;
     }
 
-    // 連続する素数の下一桁の出現回数のランキングを出力する関数
     public static void printConsecutiveLastDigitPairRanking(Map<String, Integer> consecutiveLastDigitPairs) {
         System.out.println("\n連続する素数の下一桁の出現回数ランキング:");
         List<Map.Entry<String, Integer>> list = new ArrayList<>(consecutiveLastDigitPairs.entrySet());
         list.sort((o1, o2) -> o2.getValue().compareTo(o1.getValue()));
 
         for (Map.Entry<String, Integer> entry : list) {
-            System.out.println("ペア: " + entry.getKey() + ", 出現回数: " + entry.getValue());
+            System.out.println(entry.getKey() + ",回数:" + entry.getValue());
         }
     }
 }
