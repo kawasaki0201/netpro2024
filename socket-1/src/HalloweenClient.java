@@ -15,7 +15,7 @@ public class HalloweenClient {
 
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
 
-            System.out.println("お化けの名前を入力してください: (半角英字で入力(アルファベット),例:kabotya)");
+            System.out.println("お化けの名前を入力してください: (半角英字でのみ入力(アルファベット),例:kabotya)");
             String name = scanner.next();
             System.out.println("恐怖レベルを入力してください:(1~4の半角英数字で入力) ");
             int scareLevel = scanner.nextInt();
