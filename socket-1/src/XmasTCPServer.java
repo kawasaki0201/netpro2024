@@ -11,11 +11,11 @@ public class XmasTCPServer {
 
     private static String serverProcess(String content) {
         StringBuilder sb = new StringBuilder();
-        sb.append("🎁");
+        sb.append("+");
         for (int i = 0; i < times; i++) {
             sb.append(content);
         }
-        sb.append("🎁");
+        sb.append("+");
         String result = sb.toString();
         return result;
     }
