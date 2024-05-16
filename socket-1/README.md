@@ -1,3 +1,4 @@
+```plaintext
 c:\Users\skawa\OneDrive\画像\デスクトップ\netpro2024\socket-1> c: && cd c:\Users\skawa\OneDrive\画像\デスクトップ\netpro2024\socket-1 && cmd /C "C:\Users\skawa\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin\java.exe @C:\Users\skawa\AppData\Local\Temp\cp_6hbpdi4sbywxppflxwcd4dhfl.argfile HalloweenClient "
 ポートを入力してください(5000など) → 5000
 localhostの5000番ポートに接続を要求します
