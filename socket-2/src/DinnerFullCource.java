@@ -11,30 +11,30 @@ public class DinnerFullCource {
         DinnerFullCource() {
     
             list[0] = new Dish();
-            list[0].setName("特選シーザサラダ");
-            list[0].setValune(10);
+            list[0].setName("ハンバーグ");
+            list[0].setValune(50);
             list[1] = new Dish();
-            list[1].setName("銀しゃり");
-            list[1].setValune(20);
+            list[1].setName("きゅうりの煮つけ");
+            list[1].setValune(10);
             list[2] = new Dish();
-            list[2].setName("梅干し");
-            list[2].setValune(50);
+            list[2].setName("味噌汁");
+            list[2].setValune(30);
             list[3] = new Dish();
-            list[3].setName("冷めた感じ特選風スープ");
-            list[3].setValune(1);
+            list[3].setName("野菜の天ぷら");
+            list[3].setValune(20);
             list[4] = new Dish();
-            list[4].setName("締めとしての銀しゃりのお茶漬け");
-            list[4].setValune(20);
-        }// DinnerFullCourse()コンストラクターエンド
+            list[4].setName("揚げ出し豆腐");
+            list[4].setValune(30);
+        }
     
         void eatAll() {
             String str = "";
     
             for (Dish element : list) {
-                str += element.getName() + "=" + element.getValune() + ">";
+                str += element.getName() + "が" + element.getValune() + "円　";
             }
     
-            System.out.println("たかしへ、ママ２です?J( 'ｰ`)し 今日の晩御飯コースは" + str + "よ");
+            System.out.println("今日の晩御飯コースは　" + str + "です。");
         }
     
     }
