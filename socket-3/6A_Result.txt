@@ -1,0 +1,11 @@
+C:\Users\skawa\OneDrive\画像\デスクトップ\netpro2024\socket-3> cmd /C "C:\Users\skawa\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin\java.exe -XX:+ShowCodeDetailsInExceptionMessages -cp C:\Users\skawa\OneDrive\画像\デスクトップ\netpro2024\socket-3\bin networking.udp.UDPClientABC "
+送信メッセージを入力してください(小文字の文字列): akjk
+サーバからの返信(大文字の文字列): AKJK
+送信メッセージを入力してください(小文字の文字列): dhsafh
+サーバからの返信(大文字の文字列): DHSAFH
+送信メッセージを入力してください(小文字の文字列): kdajfja
+サーバからの返信(大文字の文字列): KDAJFJA
+送信メッセージを入力してください(小文字の文字列): kdsjakf
+サーバからの返信(大文字の文字列): KDSJAKF
+送信メッセージを入力してください(小文字の文字列): h
+サーバからの返信(大文字の文字列): H

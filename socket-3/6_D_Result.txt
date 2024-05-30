@@ -1,0 +1,144 @@
+C:\Users\skawa\OneDrive\画像\デスクトップ\netpro2024\socket-3> cmd /C "C:\Users\skawa\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin\java.exe -XX:+ShowCodeDetailsInExceptionMessages -cp C:\Users\skawa\OneDrive\画像\デスクトップ\netpro2024\socket-3\bin thread.ExThreadsMain "
+A
+B
+C
+M_kun とN_sama thread:i=0
+C_kun とD_sama thread:i=0
+L_kun とM_sama thread:i=0
+B_kun とC_sama thread:i=0
+F_kun とG_sama thread:i=0
+J_kun とK_sama thread:i=0
+A_kun とB_sama thread:i=0
+D_kun とE_sama thread:i=0
+H_kun とI_sama thread:i=0
+I_kun とJ_sama thread:i=0
+E_kun とF_sama thread:i=0
+K_kun とL_sama thread:i=0
+G_kun とH_sama thread:i=0
+main: a
+main: b
+G_kun とH_sama thread:i=1
+A_kun とB_sama thread:i=1
+J_kun とK_sama thread:i=1
+D_kun とE_sama thread:i=1
+H_kun とI_sama thread:i=1
+I_kun とJ_sama thread:i=1
+E_kun とF_sama thread:i=1
+K_kun とL_sama thread:i=1
+M_kun とN_sama thread:i=1
+L_kun とM_sama thread:i=1
+C_kun とD_sama thread:i=1
+B_kun とC_sama thread:i=1
+F_kun とG_sama thread:i=1
+main: c
+main: d
+G_kun とH_sama thread:i=2
+J_kun とK_sama thread:i=2
+D_kun とE_sama thread:i=2
+H_kun とI_sama thread:i=2
+A_kun とB_sama thread:i=2
+K_kun とL_sama thread:i=2
+I_kun とJ_sama thread:i=2
+E_kun とF_sama thread:i=2
+M_kun とN_sama thread:i=2
+F_kun とG_sama thread:i=2
+B_kun とC_sama thread:i=2
+C_kun とD_sama thread:i=2
+L_kun とM_sama thread:i=2
+main: e
+main: f
+J_kun とK_sama thread:i=3
+G_kun とH_sama thread:i=3
+H_kun とI_sama thread:i=3
+D_kun とE_sama thread:i=3
+A_kun とB_sama thread:i=3
+I_kun とJ_sama thread:i=3
+E_kun とF_sama thread:i=3
+F_kun とG_sama thread:i=3
+M_kun とN_sama thread:i=3
+B_kun とC_sama thread:i=3
+K_kun とL_sama thread:i=3
+C_kun とD_sama thread:i=3
+L_kun とM_sama thread:i=3
+main: g
+main: h
+H_kun とI_sama thread:i=4
+D_kun とE_sama thread:i=4
+G_kun とH_sama thread:i=4
+A_kun とB_sama thread:i=4
+J_kun とK_sama thread:i=4
+L_kun とM_sama thread:i=4
+K_kun とL_sama thread:i=4
+C_kun とD_sama thread:i=4
+B_kun とC_sama thread:i=4
+M_kun とN_sama thread:i=4
+F_kun とG_sama thread:i=4
+E_kun とF_sama thread:i=4
+I_kun とJ_sama thread:i=4
+main: i
+main: j
+H_kun とI_sama thread:i=5
+D_kun とE_sama thread:i=5
+G_kun とH_sama thread:i=5
+A_kun とB_sama thread:i=5
+J_kun とK_sama thread:i=5
+M_kun とN_sama thread:i=5
+B_kun とC_sama thread:i=5
+L_kun とM_sama thread:i=5
+K_kun とL_sama thread:i=5
+C_kun とD_sama thread:i=5
+E_kun とF_sama thread:i=5
+I_kun とJ_sama thread:i=5
+F_kun とG_sama thread:i=5
+J_kun とK_sama thread:i=6
+G_kun とH_sama thread:i=6
+A_kun とB_sama thread:i=6
+D_kun とE_sama thread:i=6
+H_kun とI_sama thread:i=6
+L_kun とM_sama thread:i=6
+M_kun とN_sama thread:i=6
+B_kun とC_sama thread:i=6
+K_kun とL_sama thread:i=6
+C_kun とD_sama thread:i=6
+E_kun とF_sama thread:i=6
+I_kun とJ_sama thread:i=6
+F_kun とG_sama thread:i=6
+A_kun とB_sama thread:i=7
+J_kun とK_sama thread:i=7
+G_kun とH_sama thread:i=7
+D_kun とE_sama thread:i=7
+H_kun とI_sama thread:i=7
+F_kun とG_sama thread:i=7
+I_kun とJ_sama thread:i=7
+E_kun とF_sama thread:i=7
+C_kun とD_sama thread:i=7
+K_kun とL_sama thread:i=7
+B_kun とC_sama thread:i=7
+M_kun とN_sama thread:i=7
+L_kun とM_sama thread:i=7
+D_kun とE_sama thread:i=8
+G_kun とH_sama thread:i=8
+J_kun とK_sama thread:i=8
+H_kun とI_sama thread:i=8
+A_kun とB_sama thread:i=8
+M_kun とN_sama thread:i=8
+B_kun とC_sama thread:i=8
+K_kun とL_sama thread:i=8
+C_kun とD_sama thread:i=8
+E_kun とF_sama thread:i=8
+I_kun とJ_sama thread:i=8
+F_kun とG_sama thread:i=8
+L_kun とM_sama thread:i=8
+F_kun とG_sama thread:i=9
+I_kun とJ_sama thread:i=9
+C_kun とD_sama thread:i=9
+E_kun とF_sama thread:i=9
+K_kun とL_sama thread:i=9
+B_kun とC_sama thread:i=9
+M_kun とN_sama thread:i=9
+A_kun とB_sama thread:i=9
+H_kun とI_sama thread:i=9
+J_kun とK_sama thread:i=9
+G_kun とH_sama thread:i=9
+D_kun とE_sama thread:i=9
+L_kun とM_sama thread:i=9
