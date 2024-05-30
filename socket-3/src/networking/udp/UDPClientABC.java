@@ -16,8 +16,12 @@ public class UDPClientABC {
             Scanner scanner = new Scanner(System.in);
 
             while (true) {
-                System.out.print("送信メッセージを入力してください(小文字の文字列): ");
+                System.out.print("送信メッセージを入力してください(小文字の文字列)(exitで終了): ");
                 String clientMessage = scanner.nextLine();
+                if (clientMessage.equalsIgnoreCase("exit")) {
+                    System.out.println("終了します。");
+                    break;
+                }
                 sendData = clientMessage.getBytes();
 
                 DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, serverAddress, 9876);
