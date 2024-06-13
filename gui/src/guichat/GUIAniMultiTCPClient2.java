@@ -22,7 +22,7 @@ class GUIAniMultiTCPClient2 {
         sleep5();
         doClientAccess(hostname, "face,color,0,yellow");
         sleep5();
-        doClientAccess(hostname, "face,emotion,1,angry");
+        doClientAccess(hostname, "face,emotion,1,angly");
         sleep5();
         doClientAccess(hostname, "face,color,1,red");
         sleep5();
@@ -38,7 +38,7 @@ class GUIAniMultiTCPClient2 {
                 System.out.println("face,place,0,100,200");
                 System.out.println("face,emotion,0,smile");
                 System.out.println("face,color,0,yellow");
-                System.out.println("face,emotion,1,angry");
+                System.out.println("face,emotion,1,angly");
                 System.out.println("face,color,1,red");
                 System.out.println("face,emotion,2,normal");
                 System.out.println("face,color,2,green");

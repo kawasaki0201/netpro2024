@@ -47,10 +47,10 @@ class GUIAnimatinFaceLook {
             makeSmileEyes(g, w / 5);
             makeNose(g, h / 5);
             makeSmileMouth(g, w / 2);
-        } else if (emotion.equals("angry")) {
-            makeAngryEyes(g, w / 5);
+        } else if (emotion.equals("angly")) {
+            makeanglyEyes(g, w / 5);
             makeNose(g, h / 5);
-            makeAngryMouth(g, w / 2);
+            makeanglyMouth(g, w / 2);
         }
         makeEyebrows(g);
     }
@@ -70,7 +70,7 @@ class GUIAnimatinFaceLook {
         g.drawArc(xStart + (h * 4 / 7), yStart + (w * 1 / 3), eyeSize, eyeSize / 2, 0, 180);
     }
 
-    void makeAngryEyes(Graphics g, int eyeSize) {
+    void makeanglyEyes(Graphics g, int eyeSize) {
         int r = eyeSize;
         g.setColor(Color.black);
         g.drawOval(xStart + w / 4 - r / 2 - 15 / 2, yStart + h / 3 - 15 / 2, r + 15, r + 15);
@@ -95,7 +95,7 @@ class GUIAnimatinFaceLook {
         g.drawArc(xMiddle - mouthSize / 2, yMiddle - 20, mouthSize, 40, 0, -180);
     }
 
-    public void makeAngryMouth(Graphics g, int mouthSize) {
+    public void makeanglyMouth(Graphics g, int mouthSize) {
         int xMiddle = xStart + h / 2;
         int yMiddle = yStart + 3 * w / 4;
         g.drawArc(xMiddle - mouthSize / 2, yMiddle, mouthSize, 40, 0, 180);

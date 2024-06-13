@@ -71,7 +71,7 @@ class GUIAnimationBall {
 
         if ((xDir > 0) && (x + this.radius * 2 >= w)) {
             xDir = -1 * xDir;
-            if (emotion.equals("angry")) {
+            if (emotion.equals("angly")) {
                 setCollisionText("右が痛いわぁ!!激おこ", 6);
             } else {
                 setCollisionText("右が痛い。。。でも言えない", 3);
@@ -80,7 +80,7 @@ class GUIAnimationBall {
         } else if ((xDir < 0) && (x <= 0)) {
             xDir = -1 * xDir;
 
-            if (emotion.equals("angry")) {
+            if (emotion.equals("angly")) {
                 setCollisionText("左が痛いわぁ!!おこ", 6);
             } else {
                 setCollisionText("左の頬が少し。。。", 4);
@@ -90,7 +90,7 @@ class GUIAnimationBall {
 
         if ((yDir > 0) && (y + this.radius * 2 >= h)) {
             yDir = -1 * yDir;
-            if (emotion.equals("angry")) {
+            if (emotion.equals("angly")) {
                 setCollisionText("顎が痛いよ!!ぷんぷん", 7);
             } else {
                 setCollisionText("AGO ITAI...Boku..", 4);
@@ -98,7 +98,7 @@ class GUIAnimationBall {
         }
         if ((yDir < 0) && (y <= 0)) {
             yDir = -1 * yDir;
-            if (emotion.equals("angry")) {
+            if (emotion.equals("angly")) {
                 setCollisionText("頭をぶつけたよ痛いよ!!まじ痛いよ", 8);
             } else {
                 setCollisionText("こつん.", 4);

@@ -89,7 +89,7 @@ class GUIAniMultiTCPServer2 {
                     int which = Integer.parseInt(sline[2]);
                     String emotion = sline[3];
                     animation.setFaceEmotion(which, emotion);
-                    if (emotion.equals("angry")) {
+                    if (emotion.equals("angly")) {
                         animation.setEyebrowAngle(which, -45);
                     } else if (emotion.equals("smile")) {
                         animation.setEyebrowAngle(which, 30);
