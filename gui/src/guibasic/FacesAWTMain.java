@@ -30,6 +30,24 @@ public class FacesAWTMain {
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
                     int setEmotion = i;
+                    if (i == 0 && j == 1) {
+                        setEmotion = 3;
+                    }
+                    else if(i == 1 && j == 1){
+                        setEmotion = 4;
+                    }
+                    else if(i == 2 && j == 1){
+                        setEmotion = 5;
+                    }
+                    else if(i == 0 && j == 2){
+                        setEmotion = 6;
+                    }
+                    else if(i == 1 && j == 2){
+                        setEmotion = 7;
+                    }
+                    else if(i == 2 && j == 2){
+                        setEmotion = 8;
+                    }
                     Color faceColor;
                     switch (i) {
                         case 0:
@@ -98,15 +116,15 @@ public class FacesAWTMain {
             int browWidth = w / 4;
 
             switch (setEmotion) {
-                case 0:
+                case 0,3,6:
                     g.fillRect(xMiddle - browWidth / 2 - 40, yMiddle, browWidth, 5);
                     g.fillRect(xMiddle - browWidth / 2 + 40, yMiddle, browWidth, 5);
                     break;
-                case 1:
+                case 1,4,7:
                     g.fillRect(xMiddle - browWidth / 2 - 40, yMiddle - 10, browWidth, 5);
                     g.fillRect(xMiddle - browWidth / 2 + 40, yMiddle - 10, browWidth, 5);
                     break;
-                case 2:
+                case 2,5,8:
                     g.fillRect(xMiddle - browWidth / 2 - 40, yMiddle + 10, browWidth, 5);
                     g.fillRect(xMiddle - browWidth / 2 + 40, yMiddle + 10, browWidth, 5);
                     break;
@@ -115,10 +133,20 @@ public class FacesAWTMain {
 
         private void drawEye(Graphics g) {
             int r = 20;
-            g.drawOval(xStart + w / 4 - r / 2 - 15 / 2, yStart + h / 3 - 15 / 2, r + 15, r + 15);
-            g.drawOval(xStart + 3 * w / 4 - r / 2 - 15 / 2, yStart + h / 3 - 15 / 2, r + 15, r + 15);
-            g.fillOval(xStart + w / 4 - r / 4, yStart + h / 3 + r / 4, r / 2, r / 2);
-            g.fillOval(xStart + 3 * w / 4 - r / 4, yStart + h / 3 + r / 4, r / 2, r / 2);
+            if (setEmotion == 3 || setEmotion == 4 || setEmotion == 5) {
+                g.drawArc(xStart + (w * 2 / 7), yStart + (h * 1 / 3 + 5), r, r / 2, 0, 180);
+                g.drawArc(xStart + (w * 4 / 7), yStart + (h * 1 / 3 + 5), r, r / 2, 0, 180);
+            }
+            else if (setEmotion == 6 || setEmotion == 7 || setEmotion == 8) {
+                g.drawLine(xStart + (w * 2 / 7), yStart + (h * 1 / 3 + 10), xStart + (w * 2 / 7) + r, yStart + (h * 1 / 3 + 10));
+                g.drawLine(xStart + (w * 4 / 7), yStart + (h * 1 / 3 + 10), xStart + (w * 4 / 7) + r, yStart + (h * 1 / 3 + 10));
+            }
+            else {
+                g.drawOval(xStart + w / 4 - r / 2 - 15 / 2, yStart + h / 3 - 15 / 2, r + 15, r + 15);
+                g.drawOval(xStart + 3 * w / 4 - r / 2 - 15 / 2, yStart + h / 3 - 15 / 2, r + 15, r + 15);
+                g.fillOval(xStart + w / 4 - r / 4, yStart + h / 3 + r / 4, r / 2, r / 2);
+                g.fillOval(xStart + 3 * w / 4 - r / 4, yStart + h / 3 + r / 4, r / 2, r / 2);
+            }
         }
 
         private void drawNose(Graphics g) {
@@ -134,13 +162,13 @@ public class FacesAWTMain {
             int yMiddle = yStart + h - 30;
 
             switch (setEmotion) {
-                case 0:
+                case 0,3,6:
                     g.drawArc(xMiddle - 50, yMiddle - 20, 100, 40, 0, -180);
                     break;
-                case 1:
+                case 1,4,7:
                     g.drawOval(xMiddle - 25, yMiddle - 20, 50, 40);
                     break;
-                case 2:
+                case 2,5,8:
                     g.drawArc(xMiddle - 50, yMiddle, 100, 40, 0, 180);
                     break;
             }
